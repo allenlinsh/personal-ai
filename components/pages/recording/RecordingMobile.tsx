@@ -27,7 +27,7 @@ export default function RecordingMobile({
   return (
     <div className="md:hidden">
       <div className="max-width my-5 flex items-center justify-center">
-        <h1 className="leading text-center text-xl font-medium text-dark md:text-[35px] lg:text-[43px]">
+        <h1 className="text-center text-xl font-medium text-dark md:text-[35px] lg:text-[43px]">
           {title ?? 'Untitled Note'}
         </h1>
       </div>

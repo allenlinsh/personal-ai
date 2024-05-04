@@ -32,17 +32,17 @@ export default function RecordingDesktop({
 
   return (
     <div className="hidden md:block">
-      <div className="max-width mt-5 flex items-center justify-between">
+      <div className="max-width mt-5 flex items-center justify-between gap-2">
         <div />
         <h1
-          className={`leading text-center text-xl font-medium text-dark md:text-[35px] lg:text-[43px] ${
+          className={`leading-[48px] text-center text-lg font-medium text-dark md:text-[32px] lg:text-[40px] ${
             generatingTitle && 'animate-pulse'
           }`}
         >
           {generatingTitle ? 'Generating Title...' : title ?? 'Untitled Note'}
         </h1>
-        <div className="flex items-center justify-center">
-          <p className="text-lg opacity-80">
+        <div className="flex items-center justify-center flex-shrink-0">
+          <p className="text-base opacity-80">
             {formatTimestamp(Number(_creationTime))}
           </p>
         </div>
