@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import ConvexClientProvider from './ConvexClientProvider';
-import Footer from '@/components/ui/Footer';
 import { Toaster } from 'react-hot-toast';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -46,7 +45,6 @@ export default function RootLayout({
         <ConvexClientProvider>
           {children}
           <Analytics />
-          <Footer />
           <Toaster position="bottom-left" reverseOrder={false} />
         </ConvexClientProvider>
       </body>
