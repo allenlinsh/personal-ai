@@ -27,7 +27,7 @@ export default function RecordingMobile({
   return (
     <div className="md:hidden">
       <div className="max-width my-5 flex items-center justify-center">
-        <h1 className="leading text-center text-xl font-medium leading-[114.3%] tracking-[-0.75px] text-dark md:text-[35px] lg:text-[43px]">
+        <h1 className="leading text-center text-xl font-medium text-dark md:text-[35px] lg:text-[43px]">
           {title ?? 'Untitled Note'}
         </h1>
       </div>
@@ -38,7 +38,7 @@ export default function RecordingMobile({
             setActionItemOpen(false),
             setSummaryOpen(false)
           )}
-          className={`py-[12px] text-[17px] leading-[114.3%] tracking-[-0.425px] ${
+          className={`py-[12px] text-[17px] ${
             transcriptOpen ? 'action-btn-active' : 'action-btn'
           }`}
         >
@@ -50,7 +50,7 @@ export default function RecordingMobile({
             setActionItemOpen(false),
             setSummaryOpen(!summaryOpen)
           )}
-          className={`py-[12px] text-[17px] leading-[114.3%] tracking-[-0.425px] ${
+          className={`py-[12px] text-[17px] ${
             summaryOpen ? 'action-btn-active' : 'action-btn'
           }`}
         >
@@ -62,7 +62,7 @@ export default function RecordingMobile({
             setActionItemOpen(!actionItemOpen),
             setSummaryOpen(false)
           )}
-          className={`py-[12px] text-[17px] leading-[114.3%] tracking-[-0.425px] ${
+          className={`py-[12px] text-[17px] ${
             actionItemOpen ? 'action-btn-active' : 'action-btn'
           }`}
         >
@@ -106,7 +106,7 @@ export default function RecordingMobile({
                         <label className="">{item?.task}</label>
                       </div>
                       <div className="flex justify-between md:mt-2">
-                        <p className="ml-9 text-[15px] font-[300] leading-[249%] tracking-[-0.6px] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
+                        <p className="ml-9 text-[15px] font-[300] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
                           {new Date(Number(_creationTime)).toLocaleDateString()}
                         </p>
                       </div>
@@ -116,7 +116,7 @@ export default function RecordingMobile({
               ))}
               <div className="mt-10 flex items-center justify-center">
                 <Link
-                  className="rounded-[7px] bg-dark px-5 py-[15px] text-[17px] leading-[79%] tracking-[-0.75px] text-light md:text-xl lg:px-[37px]"
+                  className="rounded-[7px] bg-dark px-5 py-[15px] text-[17px] text-light md:text-xl lg:px-[37px]"
                   style={{
                     boxShadow: ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
                   }}

@@ -86,7 +86,7 @@ export default function DashboardHomePage({
       <div className="mx-auto mt-[40px] flex h-fit w-full flex-col items-center px-5 pb-10 md:mt-[50px] lg:pb-5">
         <div className="mt-10 flex flex-col gap-6 md:flex-row">
           <Link
-            className="rounded-[7px] bg-dark px-[37px] py-[15px] text-[17px] leading-[79%] tracking-[-0.75px] text-light md:text-2xl"
+            className="rounded-[7px] bg-dark px-[37px] py-[15px] text-[17px] text-light md:text-2xl"
             style={{ boxShadow: ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
             href="/record"
           >
@@ -94,7 +94,7 @@ export default function DashboardHomePage({
           </Link>
           {allNotes && (
             <Link
-              className="rounded-[7px] px-[37px] py-[15px] text-[17px] leading-[79%] tracking-[-0.75px] md:text-2xl"
+              className="rounded-[7px] px-[37px] py-[15px] text-[17px] md:text-2xl"
               style={{ boxShadow: ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
               href="/dashboard/action-items"
             >

@@ -4,11 +4,11 @@ import ConvexClientProvider from './ConvexClientProvider';
 import { Toaster } from 'react-hot-toast';
 import { Analytics } from '@vercel/analytics/react';
 
-let title = 'notesGPT - Take notes with your voice';
-let description = 'Generate action items from your notes in seconds';
-let url = 'https://usenotesgpt.com';
-let ogimage = 'https://usenotesgpt.com/images/og-image.png';
-let sitename = 'usenotesgpt.com';
+let title = 'Athena';
+let description = 'Personal AI Assistant';
+let url = 'https://alnln.com';
+let ogimage = 'https://alnln.com/images/og-image.png';
+let sitename = 'alnln.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),

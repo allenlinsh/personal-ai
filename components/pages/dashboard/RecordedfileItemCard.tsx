@@ -41,10 +41,10 @@ const RecordedfileItemCard = ({
         </h1>
       </div>
       <div className="flex w-fit items-center gap-x-[40px] 2xl:gap-x-[56px]">
-        <h3 className="hidden text-xl font-[200] leading-[114.3%] tracking-[-0.5px] md:inline-block">
+        <h3 className="hidden text-xl font-[200] md:inline-block">
           {new Date(_creationTime).toDateString()}
         </h3>
-        <h3 className="hidden text-xl font-[200] leading-[114.3%] tracking-[-0.5px] md:inline-block">
+        <h3 className="hidden text-xl font-[200] md:inline-block">
           {count} tasks
         </h3>
         <button

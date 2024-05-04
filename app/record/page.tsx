@@ -112,7 +112,7 @@ const RecordVoicePage = () => {
           />
         </div>
         <div className="z-50 flex h-fit w-fit flex-col items-center justify-center">
-          <h1 className="text-[60px] leading-[114.3%] tracking-[-1.5px] text-light">
+          <h1 className="text-[60px] text-light">
               {formatTime(Math.floor(totalSeconds / 60))}:{formatTime(totalSeconds % 60)}
           </h1>
         </div>

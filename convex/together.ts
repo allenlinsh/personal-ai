@@ -31,7 +31,7 @@ const NoteSchema = z.object({
   summary: z
     .string()
     .describe(
-      'A short summary in the first person point of view of the person recording the voice message',
+      'A short summary of the voice message',
     )
     .max(500),
   actionItems: z

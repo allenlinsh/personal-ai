@@ -54,10 +54,10 @@ export default function ActionItemsPage({
                   <label className="">{item?.task}</label>
                 </div>
                 <div className="flex justify-between gap-3 md:mt-2">
-                  <p className="ml-9 text-[15px] font-[300] leading-[249%] tracking-[-0.6px] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
+                  <p className="ml-9 text-[15px] font-[300] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
                     {new Date(item?._creationTime).toLocaleDateString()}
                   </p>
-                  <p className="truncate text-[15px] font-[300] leading-[249%] tracking-[-0.6px] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
+                  <p className="truncate text-[15px] font-[300] text-dark opacity-60 md:inline-block md:text-xl lg:text-xl">
                     From: {item?.title}
                   </p>
                 </div>
@@ -72,7 +72,7 @@ export default function ActionItemsPage({
                 You currently have no action items.
               </p>
               <Link
-                className="rounded-[7px] bg-dark px-[37px] py-[15px] text-[17px] leading-[79%] tracking-[-0.75px] text-light md:text-2xl"
+                className="rounded-[7px] bg-dark px-[37px] py-[15px] text-[17px] text-light md:text-2xl"
                 style={{ boxShadow: ' 0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}
                 href="/record"
               >
